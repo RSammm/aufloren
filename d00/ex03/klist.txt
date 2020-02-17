@@ -1,0 +1,14 @@
+
+Использование: klist.exe [команда]
+
+Список команд:
+  [tickets] [-lh <LogonId.HighPart>] [-li <LogonId.LowPart>]
+  tgt [-lh <LogonId.HighPart>] [-li <LogonId.LowPart>]
+  purge [-lh <LogonId.HighPart>] [-li <LogonId.LowPart>]
+  sessions [-lh <LogonId.HighPart>] [-li <LogonId.LowPart>]
+  kcd_cache [-lh <LogonId.HighPart>] [-li <LogonId.LowPart>]
+  get <SPN> [-lh <LogonId.HighPart>] [-li <LogonId.LowPart>]
+            [-kdcoptions <options>] [-cacheoptions <options>]
+  add_bind <DOMAIN> <DC>
+  query_bind
+  purge_bind
